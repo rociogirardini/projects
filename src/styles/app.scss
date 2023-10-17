@@ -1,0 +1,61 @@
+html {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: "Source Code Pro", monospace !important
+}
+
+/*  ------ HOME ------*/
+
+.home-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  font-size: 5vw;
+  font-weight: 800;
+}
+
+.subheading {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 576px) {
+  .heading {
+    font-size: 46px;
+  }
+  .section-wrapper{
+    height: fit-content;
+    margin-bottom: 3rem;
+  }
+}
+
+/* ------ EXPERIENCE ------ */
+
+@media only screen and (max-width: 730px) {
+  .experience-wrapper{
+    flex-direction: column;
+  }
+  .css-1bd949n{
+    width: 98% !important
+  }
+}
+
+/* ------ STUDIES ------ */
+
+.Mui-active {
+  color: rgb(0, 202, 202) !important
+}
+
+/* ------ CONTACT ------ */
+
+.contact-background {
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  background-image: url('../assets/images/1000.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}

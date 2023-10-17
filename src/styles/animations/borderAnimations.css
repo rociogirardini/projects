@@ -1,0 +1,33 @@
+.arrow-wrapper {
+    cursor: pointer;
+    border-radius: 5px;
+    --border-size: 3px;
+    --border-angle: 0turn;
+    width: fit-content;
+    height: fit-content;
+    background-image: conic-gradient(
+        from var(--border-angle),
+        #1c1c1c,
+        #1c1c1c 50%,
+        #1c1c1c
+      ),
+      conic-gradient(from var(--border-angle), transparent 20%, cyan, violet);
+    background-size: calc(100% - (var(--border-size) * 2))
+        calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation: bg-spin 3s linear infinite;
+  }
+  
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
