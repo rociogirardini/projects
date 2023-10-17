@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/projects/static/css/main.9b09cb3d.css",
+    "main.js": "/projects/static/js/main.7b885079.js",
+    "static/media/1000.gif": "/projects/static/media/1000.170936980cac2843f2fb.gif",
+    "static/media/weatherApp.png": "/projects/static/media/weatherApp.a93c73b37ec286ae07cc.png",
+    "static/media/appointmentSite.png": "/projects/static/media/appointmentSite.47b751eca879c2b6a096.png",
+    "static/media/code.png": "/projects/static/media/code.2e2849fd674327c742a9.png",
+    "static/media/ecommerce.png": "/projects/static/media/ecommerce.dcd64e642e0ecf3f0ffc.png",
+    "static/media/moviesWebsite.png": "/projects/static/media/moviesWebsite.b11b44a56a229b06706c.png",
+    "static/media/markdPrev.png": "/projects/static/media/markdPrev.eac8d002a38fa96a8ff3.png",
+    "static/media/calculator.png": "/projects/static/media/calculator.6c2701d6a5f561e5ccca.png",
+    "static/media/PM_experience.png": "/projects/static/media/PM_experience.0aa42e3c878ac77ab8cd.png",
+    "static/media/front-experience.png": "/projects/static/media/front-experience.44a828938383abca08b0.png",
+    "index.html": "/projects/index.html",
+    "main.9b09cb3d.css.map": "/projects/static/css/main.9b09cb3d.css.map",
+    "main.7b885079.js.map": "/projects/static/js/main.7b885079.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b09cb3d.css",
+    "static/js/main.7b885079.js"
+  ]
+}
