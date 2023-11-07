@@ -11,7 +11,7 @@ import frontExp from '../assets/images/front-experience.png';
 import PMExp from '../assets/images/PM_experience.png'
 
 const CardExperience = ({ name, desc, btn, icon, color, idx }) => {
-  const h3 = "<h3>";
+  const h3 = "<h3>"
   const h3_end = "</h3>";
   const experience_images = [frontExp, PMExp]
   const [open, setOpen] = useState(false);
