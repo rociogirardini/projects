@@ -11,6 +11,12 @@ import { useState } from "react";
 
 const steps = [
   {
+    label: "Data Science and Artificial Intelligence Technician",
+    place: `Polytechnic Institute of Córdoba`,
+    link: null,
+    date: "2024/Ongoing",
+  },
+  {
     label: "Full Stack Developer CORE",
     place: `TecMilenio University`,
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7115422155848228864/",
@@ -39,12 +45,6 @@ const steps = [
     place: `CoderHouse`,
     link: "https://www.coderhouse.com/certificados/61c2215cced938006bd86345",
     date: "2021/21",
-  },
-  {
-    label: "Technical Producer in Audiovisual Media",
-    place: `National University of Córdoba`,
-    link: null,
-    date: "2017/Incomplete",
   },
 ];
 
